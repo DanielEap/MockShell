@@ -1,0 +1,23 @@
+This is the manual for help
+This DanielSH is a shell within the terminal. It has similar functionality to that of bash.
+
+Listed are the following functions:
+
+1) pwd: prints the pathwork directory that you are currently working in
+2 ) cd: changes directory. It takes in the command and the directory to change into
+It will only work if it is a valid directory and is visible from the current working directory. 
+.. to go to the previous directory.
+type in the name for the directory wanting to go to.
+full paths extending from the current directory are accepted.
+3) exit: closes the pseudo shell but not the full terminal
+4) help: pulls from the help.txt and forks and execs on the more command 
+to have the manual for help placed into the more format
+
+Funcitonalities:
+
+1) Redirection: < and > are supported. First argument is a command. The other arguments surrounding the redirectives are files. 
+The command will redirect its output or input accordingly to the file that it is redirected to.
+2) Piping: | is supported. Have one argument on both sides of the pipe with both being commands. 
+The first command of the pipe will have its output become the input for the following command.
+3) Flags/Options: - is supported. Any command that can accept a flag will be accepted and function.
+4) Background Process: & is supported. Attach to the end of any command line input to allow the ability to run processes in the background and still have access to the DanielSH.
